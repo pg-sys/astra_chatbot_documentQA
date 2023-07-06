@@ -109,7 +109,7 @@ async def main(client: Client):
                 'Please provide your OPENAI key in the Python script first!'
             text = ui.input(placeholder=placeholder).props('rounded outlined input-class=mx-3') \
                 .classes('w-full self-center').on('keydown.enter', send)
-        ui.markdown('Peter's DataStax Bot - powered by [NiceGUI](https://nicegui.io)') \
+        ui.markdown('Peters DataStax Bot - powered by [NiceGUI](https://nicegui.io)') \
             .classes('text-xs self-end mr-8 m-[-1em] text-primary')
 
 ui.run(title='Chat with GPT-3 (example)')
