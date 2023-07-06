@@ -31,6 +31,9 @@ A simple chatbot that uses Tinkter UI Framework and loads a ui to interact with 
 A little bit more sophisticate Web UI. It can be embedded into other apps / notebooks etc.
 It is a chatbot that uses NiceGui Framework and a chat messaging style to interact with the user.
 
+# 7. cleanupdata.py
+This clears the VectorDatabase (truncates data).
+
 # Comments
 Start the python programs with 
 python3 progname.py
